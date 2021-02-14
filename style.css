@@ -1,0 +1,46 @@
+/* Buttons style */
+.btn-group .button {
+  background-color: #2b2c2b; /* Green */
+  border: 1px solid rgb(41, 41, 41);
+  color: rgb(160, 153, 153);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: center;
+}
+/* buttons highlight */
+.btn-group .button:hover {
+  background-color: #161515;
+}
+head {
+  background-color: #161515;
+}
+h1 {
+  text-align: center;
+}
+body {
+  font-size: 20pt;
+  background-color: #161515;
+}
+div.gallery {
+  margin: 5px;
+  float: right;
+  width: 810px;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
